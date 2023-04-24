@@ -1,6 +1,4 @@
-# Insurwave Data Engineering (ETL) code test
-
-## Introduction
+# Introduction
 
 The HR department of a large corporation wants to start using their operational data to drive insights and improve employee experience. In order to enable that, the data engineering team needs to set up the data pipelines to load the operational data into an analytics database (SQL based) which will be used by data analyst to explore the data and drive insights. 
 
@@ -12,7 +10,7 @@ The example is from the <em>employee</em> data domain.
 - The HR system also keeps details on the employees salary details. An employee's salary can have multiple constituent parts. Not all employes have salary values. 
 - The HR system also keeps track of metadata on different employee attributes. These information is not available for all employees
 
-Below is an example of the json input.
+Employee json input.
 
 ```
 {
@@ -39,23 +37,6 @@ Below is an example of the json input.
     "isDeleted": false
 }
 ```
-
-The produced solution should:
-- build succesfully, 
-- run succesfullly to process example json inputs
-- contain all the necessary tests (unit tests and integration tests), which should be runable
-- have all relevant documentation.
-
-During work on the solution, please use all the good practices that would be normally used during the development of the service.  
-Please feel free to use any libraries, patterns or solution structure (including adding projects) that feels right for you.
-Please use any SQL RDBMS of your choise. 
-
-For the implementation, please follow the tickets written below.  
-For every ticket, please prepare a separate commit/pull-request showing incremental work.
-
-
-During the interview session, the produced solution will be demoed, reviewed and discussed.  
-You will then discuss how additional requirements provided by the interviewer can be implemented
 
 
 ## Ticket-1  Create an API end point for loading data in SQL database 
