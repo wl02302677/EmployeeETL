@@ -1,0 +1,41 @@
+[
+  {
+    "id": "test3",
+    "name": "Sally",
+    "attributes": {
+      "position": "Manager",
+      "joinedOn": "2018-07-15T15:09:57.655Z",
+      "satisfactionScore": 9
+    },
+    "salaryValues": [
+      {
+        "type": "Base",
+        "currency": "GBP",
+        "value": 80000
+      }
+    ],
+    "isDeleted": true
+  },
+  {
+    "id": "test4",
+    "name": "Henry",
+    "attributes": {
+    "position": "Software Engineer",
+    "joinedOn": "2017-11-24T15:09:57.655Z",
+    "satisfactionScore": 13
+  },
+    "salaryValues": [
+  {
+    "type": "Base",
+    "currency": "GBP",
+    "value": 64000
+  },
+  {
+    "type": "Bonus",
+    "currency": "GBP",
+    "value": 3777
+  }
+  ],
+    "isDeleted": false
+  }
+]

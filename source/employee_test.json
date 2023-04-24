@@ -1,0 +1,24 @@
+[
+ {
+    "id": "abd567",
+    "name": "Sean Wu",
+    "attributes": {
+      "position": "Data Engineer",
+      "joinedOn": "2023-04-24T15:09:57.655Z",
+      "satisfactionScore": 13
+  },
+    "salaryValues": [
+    {
+      "type": "Base",
+      "currency": "GBP",
+      "value": 55000
+    },
+    {
+      "type": "Bonus",
+      "currency": "GBP",
+      "value": 5000
+    }
+  ],
+    "isDeleted": false
+  }
+]
